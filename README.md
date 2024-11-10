@@ -103,7 +103,7 @@ Result:
    {
      "status": "success",
      "message": "{{name}} data has been created",
-    "error": false
+     "error": false
    }
    ```
    
