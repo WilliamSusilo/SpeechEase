@@ -12,7 +12,12 @@ This API used to create users account
 Method: POST
 URL: /register
 Body Request:  
-```json { "username": "string", "email": "string", "password": "string" } ```
+```json
+{
+  username,  
+  email,  
+  password  
+} ```
 
 Result:
 1. Status Code: 201 (Created)
