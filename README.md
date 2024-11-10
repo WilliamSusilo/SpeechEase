@@ -23,19 +23,23 @@ Body Request:
 Result:
 1. Status Code: 201 (Created)
    Response Body:
-   `{
+   ```
+   {
      "status": "success",  
      "message": "User successfully created",  
      "error": false  
-   }`
+   }
+   ```
    
 2. Status Code: 400 (Bad Request)
    Response Body:
-   `{
+   ```
+   {
      "status": "fail",  
      "message": "Failed to create new user",  
      "error": true  
-   }`
+   }
+   ```
 
 ### Login API
 This API used to create users account
@@ -43,14 +47,17 @@ This API used to create users account
 Method: POST
 URL: /login
 Body Request:
+```
 {
   email,
   password
 }
+```
 
 Result:
 1. Status Code: 200 (OK)
    Response Body:
+   ```
    {
      "status": "success",
      "message": "{{email}} login success",
@@ -61,14 +68,17 @@ Result:
        "token": "Token"
      }
    }
+   ```
    
-2. Status Code: 400 (Bad Request)
+3. Status Code: 400 (Bad Request)
    Response Body:
-      {
+   ```
+   {
      "status": "fail",
      "message": "Failed to login the app",
      "error": true
    }
+   ```
 
 ### User Detail API
 This API used to create user profile
@@ -76,6 +86,7 @@ This API used to create user profile
 Method: POST
 URL: /add_user
 Body Request:
+```
 {
   email,
   name,'
@@ -83,23 +94,28 @@ Body Request:
   country,
   address,
 }
+```
 
 Result:
 1. Status Code: 201 (Created)
    Response Body:
+   ```
    {
      "status": "success",
      "message": "{{name}} data has been created",
     "error": false
    }
+   ```
    
-2. Status Code: 400 (Bad Request)
+3. Status Code: 400 (Bad Request)
    Response Body:
-      {
+   ```
+   {
      "status": "fail",
      "message": "Failed to create user data",
      "error": true
    }
+   ```
 
 ### User Data API
 This API used to get user profile
@@ -110,6 +126,7 @@ URL: user_data/{{email}}
 Result:
 1. Status Code: 200 (OK)
    Response Body:
+   ```
    {
      "status": "success",
      "message": "{{email}} found",
@@ -123,11 +140,14 @@ Result:
        "address": "user address",
       }
    }
+   ```
    
 3. Status Code: 400 (Bad Request)
    Response Body:
-      {
+   ```
+   {
      "status": "fail",
      "message": "Failed to create user data",
      "error": true
    }
+   ```
