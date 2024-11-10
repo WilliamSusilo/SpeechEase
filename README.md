@@ -17,7 +17,8 @@ Body Request:
   username,  
   email,  
   password  
-}```
+}
+```
 
 Result:
 1. Status Code: 201 (Created)
