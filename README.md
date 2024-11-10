@@ -89,7 +89,7 @@ Body Request:
 ```
 {
   email,
-  name,'
+  name,
   gender,
   country,
   address,
