@@ -12,28 +12,28 @@ This API used to create users account
 Method: POST
 URL: /register
 Body Request:
-`{
-  username,
-  email,
-  password
+`{  
+  username,  
+  email,  
+  password  
 }`
 
 Result:
 1. Status Code: 201 (Created)
    Response Body:
-   {
-     "status": "success",
-     "message": "User successfully created",
-     "error": false
-   }
+   `{
+     "status": "success",  
+     "message": "User successfully created",  
+     "error": false  
+   }`
    
 2. Status Code: 400 (Bad Request)
    Response Body:
-      {
-     "status": "fail",
-     "message": "Failed to create new user",
-     "error": true
-   }
+   `{
+     "status": "fail",  
+     "message": "Failed to create new user",  
+     "error": true  
+   }`
 
 ### Login API
 This API used to create users account
