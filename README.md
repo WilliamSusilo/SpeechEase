@@ -526,7 +526,7 @@ Error:<br>
 ```
 
 ## 2. Cloud Architecture Design
-<img src="Photos/SpeechEase Cloud Architecture.png" width="auto" height="auto" alt="Cloud Architecture" />
+<img src="Cloud Computing/Photos/SpeechEase Cloud Architecture.png" width="auto" height="auto" alt="Cloud Architecture" />
 The SpeechEase application leverages Google Cloud Platform (GCP) to create a robust and scalable architecture hosted in the asia-southeast2 region. The architecture includes the following components:
 
 - Android Application: Serves as the user interface, interacting with backend services.
@@ -537,7 +537,7 @@ The SpeechEase application leverages Google Cloud Platform (GCP) to create a rob
 This architecture ensures efficient interaction between components while providing scalability, reliability, and low-latency performance.
 
 ## 3. Database Design
-<img src="Photos/SpeechEase Database Design (Final).png" width="auto" height="auto" alt="Database Design" />
+<img src="Cloud Computing/Photos/SpeechEase Database Design (Final).png" width="auto" height="auto" alt="Database Design" />
 The database design consists of four main tables: User, Content, Progress, and Feedback, with relationships defined among them to track user activities, content details, and feedback.
 
 
